@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Assets/bg1.jpg);
+    background-size: auto;
+    color: yellow;
+    font-family: 'Raleway';
+}
+.form-head{
+    display: flex;
+    width: 100%;
+}
+.form-head-one{
+    width: 20%;
+    height: 2vw;
+}
+.form-main{
+    display: flex;
+    background-color: white;
+}
+.form-main-first{
+    width: 20%;
+    height: 50vw;
+    background-color: #153e74;
+}
+.form-main-second{
+    width: 80%;
+    text-align: end;
+    padding: 2vw 5vw 0vw 0vw;
+}
+.form-main-second img{
+    border-radius: 5vw;
+    margin-bottom: 1.5vw;
+}
+.form-main-second hr{
+    width: 20vw;
+    height: 4vw;
+    margin: 1vw 0vw 0vw 57.5vw; 
+    background-color: black;
+}
+.form-main-second p{
+    margin-top: 1.5vw;
+    font-weight: 500;
+    font-size: 2vw;
+}
+.form-main-second a{
+    font-size: 1.5vw;
+    font-style: italic;
+    margin-top:-5vw;
+}
+.form-main-first-sm{
+    background-color: #f2911e;
+    width: 20%;
+    border: 0;
+}
+.form-main-second-sm{
+    text-align: start;
+    padding: 2.9vw 0vw 0vw 3vw;
+    font-weight: 500;
+    font-size: 2.6vw;
+    
+}
+#icon{
+    font-size: 5vw;
+    margin: 4vw 7vw;
+    color: white;
+}
+
+/* form second page */
+
+#form-page{
+    margin-top: 4vw;
+    background-color: white;
+}
+.form-s-head-text{
+    font-size: 4vw;
+    text-align: center;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+.form-s-head{
+    margin-top: 2vw;
+    padding-left: 5vw;
+    font-weight: 700;
+    line-height: 5vw;
+    display: flex;
+    font-size: 3vw;
+}
+.form-s-menu-head{
+    font-size: 3.5vw;
+    font-weight: 700;
+    padding: 3vw 0vw 3vw 5vw ;
+}
+.form-s-menu-head input{
+    padding: 1.5vw 8vw;
+    border-radius: 2vw;
+    margin-top: 1vw;
+}
+.form-s-menu-head i{
+    position: absolute;
+    font-size: 5vw;
+    padding: 2.8vw 0vw 0vw 1.5vw;
+}
+.form-s-menu-list{
+    margin-left: 6vw;
+    margin-bottom: -0.5vw;
+}
+.form-s-menu-list li{
+    font-size: 3vw;
+    line-height: 4.5vw;
+}
+.form-s-about-text{
+    margin:-1vw 0vw 0vw 5VW;
+    padding-right: 2vw;
+    font-size: 2.8vw;
+}
